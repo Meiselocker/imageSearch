@@ -8,8 +8,9 @@ imageSearch is a Python3 console application for image identification, designed 
 ## Contents of the repository
 
 * `files` contains images used to illustrate the Jupyter tutorial. 
-* `database.py` is a module containing the Python class `DB`, which is the core of the application.
-* `utils.py` is a module with auxiliary functions. 
+* `imageSearch` contains the modules:
+* *  `database.py` with the Python class `DB`, which is the core of the application.
+* *  `utils.py` with auxiliary functions. 
 * `test.py` tests the application. The utrecht face database, (see download data section) will be used to build a new register and train a new model. The script returns similarity probability for a sample and plot a matched pair of image.
 * `UserGuide.ipynb` is a Jupyter Notebook presenting the main functionalities of the application. 
 * `requirements.txt` is a list of dependencies of the appication.
