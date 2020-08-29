@@ -3,7 +3,7 @@
 imageSearch is a Python3 console application for image identification, designed for wildlife biologists. 
 
 * Manage a register of identified images.
-* Verify whether a new entry matches an existing entry in the database.
+* Verify and authentify new entries against previously registered images.
 
 ## Contents of the repository
 
@@ -18,7 +18,7 @@ imageSearch is a Python3 console application for image identification, designed 
 * `model.pkg` is the default scikit-learn machine learning model used in the application, saved as a pickled Python object. 
 
 ## Data
-This application was specifically built for verification of toad images, although it can suit many other purposes. The app was successfully tested (96% accuracy, refer to User Guide for definition) on an unseen dataset containing 127 pairs of images of toads' upper body. This data, as well as the [*Utrecht Face dataset*](http://pics.stir.ac.uk/2D_face_sets.htm), used as a toy example in the User Guide, is to be found [here](https://drive.google.com/drive/folders/1r_1X1777maJ8mBIArpi4eLQaTuLOjmH-?usp=sharing). 
+This application was specifically built for verification of toad images, although it can suit many other purposes. The app was successfully tested (98% accuracy, refer to User Guide for definition) on an unseen dataset containing 127 pairs of images of toads' upper body. This data, as well as the [*Utrecht Face dataset*](http://pics.stir.ac.uk/2D_face_sets.htm), used as a toy example in the User Guide, is to be found [here](https://drive.google.com/drive/folders/1r_1X1777maJ8mBIArpi4eLQaTuLOjmH-?usp=sharing). 
 
 ## Install
 
@@ -177,11 +177,5 @@ When you create a notebook with Jupyter, choose the imageSearch kernel you have 
 
 Please refer to the User Guide (Jupyter Notebook) for an overview of the main functionalities of the application. 
 
-
-
-
 ## Author
 Isaac Debache
-
-
-
